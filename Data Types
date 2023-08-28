@@ -1,0 +1,26 @@
+
+1. Primitive Data Type or, Buit-in Data Type.
+2. Non-Primitive Data Type or, Reference Data Type.
+
+                                                                   Data Type                  M.A.S       Default    Range
+
+Primitive Data Type -> 1. Boolean Data Type---------------------> 1. boolean (True, False)  -> 1 bit    -> false
+
+                       2. Numeric Data Type---> 1. Character ->   1. char                   -> 2 byte   ->  _        0 to 65535
+
+                                                2. Integral ->    1. byte                   -> 1 byte   -> 0         -128 to 127  
+                                                                  2. short                  -> 2 byte   -> 0         -32768 to 32767
+                                                                  3. int                    -> 4 byte   -> 0         -2147483648 to 2147483647
+                                                                  4. long                   -> 8 byte   -> 0         -9223372036854775808 to 9223372036854775807
+
+                                                3. Floating   ->  1. float                  -> 4 byte   -> 0.0       0.14012985e-44 to 0.34028235e39
+                                                   Point          2. double                 -> 8 byte   -> 0.0       .11125369292536009e-307 to .17976931348623155e+309     
+
+
+
+Non-Primitive Data Type: Array, String, Object of Classes.
+                                                                    
+ 
+
+
+
