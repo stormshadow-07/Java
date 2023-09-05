@@ -1,0 +1,25 @@
+                                                                Type Casting / Type Conversion
+
+
+
+
+
+There are two types of Type Casting for Primitive Data Type. -> 1. Widening Type Casting / Implicit Type Casting / Automatic Type Casting
+                                                                2. Narrowing/Shortening Type Casting / Explicit Type Casting / Manual Type Casting
+
+
+
+
+1. Widening Type Casting: Widening Type Casting is also known as Implicit Type Casting or Automatic Type Casting. In this type of casting, the compiler automatically casts one data type to another data type.
+
+            
+                                          byte -> short -> char -> int -> long -> float -> double
+                                           1b      2b       2b      4b     8b      4b        8b
+
+
+2. Narrowing Type Casting: Narrowing Type Casting is also known as Explicit Type Casting or Manual Type Casting. In this type of casting, we have to manually convert values from one type to another type.
+
+                                         double -> float -> long -> int -> char -> short -> byte
+                                          8b         4b       8b     4b     2b       2b       1b
+
+
