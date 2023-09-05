@@ -1,0 +1,108 @@
+
+
+Operator: In Java Programming Language there are some special symbols that are used to perform different types of operations with variables and values. These symbols are called Operator.
+
+Operand: To whom operator operates.
+
+There are different types of operators. -> 1. Arithmetic Operator
+                                           2. Relational Operator
+                                           3. Logical Operator
+                                           4. Assignment Operator
+                                           5. Bitwise Operator
+                                           6. Ternary Operator
+
+
+
+
+1. Arithmetic Operator: 1. Unary Operator: Unary operator operates with only one variable. -> 1. Prefix Unary Operator: ++x
+                                                                                              2. Postfix Unary Operator: x++
+
+                            i. Prefix: ++x, --x, ++5, --5
+                            ii. Postfix: x++, x--, 5++, 5--
+
+
+                          Difference Between Prefix and Postfix: 
+
+                           int x = 5;
+                           System.out.println(--x);  x = 4     //decrement by 1
+                           System.out.println(x);    x = 4
+
+                           int y = 5;
+			   System.out.println(y++);  y = 5     //increment by 1
+                           System.out.println(y);    y = 6
+
+
+
+                        2. Binary Operator: Binary operator operates with two or multiple variables. > +, -, *, /, %
+                          
+                         int a = 10;       
+                         int b = 15;
+                         int c = a + b;      c = 25
+			 int d = b - a;      d = 5
+                         int m = a * b;      m = 150
+                         int div = b / a;    div = 1
+                         int mod = a % b;    mod = 10
+
+
+
+2. Relational Operator: Relational Operators are used to compare operands. Relational operators are: >, >=, <, <=, !=, ==
+                    
+                        int age = 18;                          
+                        if (age >= 18) {                      
+			    System.out.println("Voter");
+                        }
+
+			boolean b = age >= 18;
+			System.out.println(b);    b = true
+
+			int x  = 10;
+			int y = 11;
+			boolean f = x != y;
+                        System.out.println(f);    f = true
+
+
+3. Logical Operator: Logical operators are used to operate logical works. Logical operators are: &&, ||
+                     
+                     i. Logical And: Logical And returns true if both of the condition or expression is true, otherwise returns false.
+                     ii. Logical Or: Logical Or returns true if only one condition or expression is true, otherwise returns false;
+
+                     int a = 10; 
+                     int b = 12;
+                     int c = 15;
+                     boolean f = (c >= a && c <= b)                 
+                     System.out.println(f);   
+		     boolean d = (c <= a || c <= b)
+                     System.out.println(d);
+
+
+4. Assignment Operator: Assignment operators are used to assign values in a variable. Assignment operators are: =, +=, -=, *=, /=, %=
+
+                       int value;
+                       value = 10;
+                       value += 5;     value = value + 5;
+		       value -= 1;     value = value - 1;
+		       value *= 2;     value = value * 2;
+                       value /= 14;    value = value / 14
+                       value %= 2;     value = value % 3
+                       System.out.println(value);
+
+
+                                         
+
+6. Ternary Operator: ? :
+
+		    int age = 18;
+		    String result = age >= 18 ? "Voter" : "Not Voter";
+                    System.out.println(result);
+
+
+
+                    int age = 18;
+                    if (age >= 18) {
+                        System.out.println("Voter");
+		    }
+                    else {
+			System.out.prinln("Not Voter");
+                    }
+
+
