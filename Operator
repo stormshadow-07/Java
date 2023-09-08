@@ -86,6 +86,97 @@ There are different types of operators. -> 1. Arithmetic Operator
                        value %= 2;     value = value % 3
                        System.out.println(value);
 
+5. Bitwise Operator: Bitwise operators are used to perform bit manipulation or binary operations in Java programming language. 
+                     Bitwise operators are: &, |, ~, ^, >>, <<
+
+		     Binary And (&): Binary And operator is used to perform Binary And operations.
+
+                                     8  4  2  1
+                                  ----------------------
+                                     0  1  0  1    <-- 5
+                                     0  1  1  0    <-- 6
+                                  ----------------------
+                           4   <--   0  1  0  1    <-- (5 & 6)
+
+                                     int a = 5
+                                     int b = 6
+                                     int c =  a & b;
+                                     System.out.prinln(c) //c = 4
+
+
+                     Binary Or (|): Binary Or operator is used to perform Binary Or operations.
+
+                                     8  4  2  1
+                                  ----------------------
+                                     0  1  0  1    <-- 5
+                                     0  1  1  0    <-- 6
+                                  ----------------------
+                          7  <--     0  1  1  1    <-- (5 | 6)
+
+                                     int a = 5;
+                                     int b = 6;
+                                     int c = a | b;
+                                     System.out.prinln(c); //c = 7
+
+                    Binary XOR (^): Binary XOR operator is used to perform Binary XOR operations.
+
+                                       8  4  2  1                                5 ^ 5 = 0
+                                  ----------------------
+                                       0  1  0  1    <-- 5
+                                       0  1  1  1    <-- 7     
+                                      
+                                  ----------------------
+                                       0  0  1  0    <-- (5^7) = 2
+
+                    Binary Not (~) or Negation Operator: Binary Not operator is used to perform Binary Not operations.
+
+                                       
+                                       8  4  2  1
+                                  ----------------------
+                                       0  1  0  1    <-- 5
+                                  ----------------------
+                                 2   <-   0  1  0    <-- ~5
+
+                                 int a = 5;
+				 int b =  ~a;
+                                 System.out.println(b); //b = 2
+
+
+                    Right Shift Operator (>>): The right shift operator is used to shift each bit of a number to the right.
+
+                     128   64  32  16    8  4  2  1
+                                  ----------------------
+                      0    0    0    0   0  1  0  1 |  <-- 5
+                                                    |
+               2 <--  0    0    0    0   0  0  1  0 |  <-- 5 >> 2 == 1            
+
+			        int a = 5;
+                                int b = a >> 1;
+                                System.out.println(2);
+                                                            x       
+                     If we perform   x >> y = z, then z =  ---     
+                                                             y       
+                                                            2   
+
+
+                     128     64       16       8     4      2      1
+                   ------------------------------------------------------
+                      0       0        0       0     1      1      1 | <-- 7
+                                                                     | 
+                              0        0       0     0      1      1 | <-- 7 >> 1
+                                                                     |
+                                       0       0     0      0      1 | <-- 7 >> 2 = 1        7/2 square = 7/2 = 3/2 = 1
+
+
+
+                    Left Shift Operator (<<): The left shift operator is used to shift each bit of a number to the left.
+
+        32th    31th   128     64       16       8     4      2      1
+     -------------------------------------------------------------------------------
+          0       0     0      0        0        0     1      1      1    <-- 7
+          
+          0       0     0      0        1        1     1      0      0    <-- (7 << 2) = 28
+
 
                                          
 
